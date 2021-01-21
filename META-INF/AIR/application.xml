@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/32.0">
+	<id>com.sulake.habboair</id>
+	<filename>HabboAir</filename>
+	<name>Habbo</name>
+    <versionLabel>2.27.0</versionLabel>
+    <versionNumber>2.27.82</versionNumber>
+	<copyright>Sulake Corporation 2019</copyright>
+	<initialWindow>
+		<content>HabboTablet.swf</content>
+		<title>Habbo</title>
+		<visible>true</visible>
+                <x>0</x>
+                <y>0</y>
+                <width>800</width>
+                <height>600</height>
+        <renderMode>direct</renderMode>
+        <depthAndStencil>true</depthAndStencil>
+	</initialWindow>
+    <supportedLanguages>en de es fr it nl sv tr pt</supportedLanguages>
+    <supportedProfiles>desktop extendedDesktop</supportedProfiles>
+    <installFolder>Sulake</installFolder>
+   	<programMenuFolder>Sulake</programMenuFolder>
+    <icon>
+        <image16x16>./Icons/AppIcon16x16.png</image16x16>
+        <image32x32>./Icons/AppIcon32x32.png</image32x32>
+        <image48x48>./Icons/AppIcon48x48.png</image48x48>
+        <image128x128>./Icons/AppIcon128x128.png</image128x128>
+	</icon>
+</application>
